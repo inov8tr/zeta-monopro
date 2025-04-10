@@ -1,0 +1,29 @@
+{
+  "name": "@zetamonopro/ui",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "license": "MIT",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
+    "dev": "tsup src/index.tsx --format esm,cjs --dts --external react",
+    "lint": "eslint \"src/**/*.ts*\"",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/react": "18",
+    "@types/react-dom": "18",
+    "eslint": "^8.40.0",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "react": "18",
+    "react-dom": "18"
+  }
+}

@@ -1,0 +1,32 @@
+
+
+> @zetamonopro/supabase@1.0.0 build /workspaces/zeta-monopro/packages/supabase
+> tsup src/index.ts src/client.ts src/server.ts src/admin.ts src/types.ts --dts --format esm,cjs --clean
+
+[34mCLI[39m Building entry: src/index.ts, src/client.ts, src/server.ts, src/admin.ts, src/types.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v6.7.0
+[34mCLI[39m Using tsup config: /workspaces/zeta-monopro/packages/supabase/tsup.config.ts
+[34mCLI[39m Target: es2020
+[34mCLI[39m Cleaning output folder
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mESM[39m [1mdist/types.mjs  [22m[32m0 B[39m
+[32mESM[39m [1mdist/index.mjs  [22m[32m203.84 KB[39m
+[32mESM[39m [1mdist/client.mjs [22m[32m172.00 B[39m
+[32mESM[39m [1mdist/server.mjs [22m[32m203.23 KB[39m
+[32mESM[39m [1mdist/admin.mjs  [22m[32m503.00 B[39m
+[32mESM[39m ⚡️ Build success in 491ms
+[32mCJS[39m [1mdist/client.js [22m[32m1.18 KB[39m
+[32mCJS[39m [1mdist/server.js [22m[32m203.75 KB[39m
+[32mCJS[39m [1mdist/admin.js  [22m[32m1.49 KB[39m
+[32mCJS[39m [1mdist/types.js  [22m[32m758.00 B[39m
+[32mCJS[39m [1mdist/index.js  [22m[32m204.47 KB[39m
+[32mCJS[39m ⚡️ Build success in 495ms
+[34mDTS[39m Build start
+[32mDTS[39m ⚡️ Build success in 26840ms
+[32mDTS[39m [1mdist/index.d.ts  [22m[32m263.00 B[39m
+[32mDTS[39m [1mdist/client.d.ts [22m[32m262.00 B[39m
+[32mDTS[39m [1mdist/server.d.ts [22m[32m278.00 B[39m
+[32mDTS[39m [1mdist/admin.d.ts  [22m[32m291.00 B[39m
+[32mDTS[39m [1mdist/types.d.ts  [22m[32m239.00 B[39m
