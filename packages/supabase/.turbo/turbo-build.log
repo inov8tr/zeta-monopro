@@ -11,20 +11,20 @@
 [34mCLI[39m Cleaning output folder
 [34mESM[39m Build start
 [34mCJS[39m Build start
+[32mCJS[39m [1mdist/index.js  [22m[32m204.47 KB[39m
+[32mCJS[39m [1mdist/client.js [22m[32m1.18 KB[39m
+[32mCJS[39m [1mdist/server.js [22m[32m203.75 KB[39m
+[32mCJS[39m [1mdist/admin.js  [22m[32m1.49 KB[39m
+[32mCJS[39m [1mdist/types.js  [22m[32m758.00 B[39m
+[32mCJS[39m ⚡️ Build success in 350ms
 [32mESM[39m [1mdist/types.mjs  [22m[32m0 B[39m
 [32mESM[39m [1mdist/index.mjs  [22m[32m203.84 KB[39m
 [32mESM[39m [1mdist/client.mjs [22m[32m172.00 B[39m
 [32mESM[39m [1mdist/server.mjs [22m[32m203.23 KB[39m
 [32mESM[39m [1mdist/admin.mjs  [22m[32m503.00 B[39m
-[32mESM[39m ⚡️ Build success in 491ms
-[32mCJS[39m [1mdist/client.js [22m[32m1.18 KB[39m
-[32mCJS[39m [1mdist/server.js [22m[32m203.75 KB[39m
-[32mCJS[39m [1mdist/admin.js  [22m[32m1.49 KB[39m
-[32mCJS[39m [1mdist/types.js  [22m[32m758.00 B[39m
-[32mCJS[39m [1mdist/index.js  [22m[32m204.47 KB[39m
-[32mCJS[39m ⚡️ Build success in 495ms
+[32mESM[39m ⚡️ Build success in 354ms
 [34mDTS[39m Build start
-[32mDTS[39m ⚡️ Build success in 26840ms
+[32mDTS[39m ⚡️ Build success in 6934ms
 [32mDTS[39m [1mdist/index.d.ts  [22m[32m263.00 B[39m
 [32mDTS[39m [1mdist/client.d.ts [22m[32m262.00 B[39m
 [32mDTS[39m [1mdist/server.d.ts [22m[32m278.00 B[39m
