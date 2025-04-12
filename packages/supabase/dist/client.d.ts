@@ -1,8 +1,9 @@
-import * as _supabase_auth_helpers_nextjs from '@supabase/auth-helpers-nextjs';
+import { SupabaseClient } from '@supabase/supabase-js';
 
 /**
- * Supabase client for use in client components (App Router)
+ * Supabase client for use in client components (App Router).
+ * Uses cookies/localStorage for auth persistence.
  */
-declare const supabase: _supabase_auth_helpers_nextjs.SupabaseClient<any, "public", any>;
+declare const supabase: SupabaseClient;
 
 export { supabase };

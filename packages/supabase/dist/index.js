@@ -5002,7 +5002,7 @@ var require_headers3 = __commonJS({
 // src/index.ts
 var src_exports = {};
 __export(src_exports, {
-  createAdminClient: () => createAdminClient,
+  createAdminSupabaseClient: () => createAdminSupabaseClient,
   createServerSupabaseClient: () => createServerSupabaseClient,
   supabase: () => supabase
 });
@@ -5022,17 +5022,19 @@ var createServerSupabaseClient = async () => {
 
 // src/admin.ts
 var import_supabase_js = require("@supabase/supabase-js");
-var createAdminClient = () => {
+var createAdminSupabaseClient = () => {
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
-  if (!supabaseUrl || !supabaseServiceKey) {
-    throw new Error("Missing NEXT_PUBLIC_SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY in environment");
+  const supabaseServiceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  if (!supabaseUrl || !supabaseServiceRoleKey) {
+    throw new Error(
+      "Missing environment variables: NEXT_PUBLIC_SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY"
+    );
   }
-  return (0, import_supabase_js.createClient)(supabaseUrl, supabaseServiceKey);
+  return (0, import_supabase_js.createClient)(supabaseUrl, supabaseServiceRoleKey);
 };
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
-  createAdminClient,
+  createAdminSupabaseClient,
   createServerSupabaseClient,
   supabase
 });
